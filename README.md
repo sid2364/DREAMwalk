@@ -38,6 +38,40 @@ Sample code to generate the embedding space and predict drug-disease association
 - The file formats for each input file can be found in [here](demo).
 - Detailed instructions in running the codes can be found [here](DREAMwalk).
 
+## PIPELINE WITHOUT DATA LEAKAGE
+Download data from: http://snap.stanford.edu/multiscale-interactome/data/data.tar.gz. 
+
+Unzip into `data/`
+
+Run from the repo root:
+```
+conda activate dreamwalk
+```
+
+### 0. MSI data -> input files
+```
+python -m DREAMwalk.prepare_msi --msi_dir data --output_dir msi_inputs
+```
+
+### 1. ATC similarity network
+```
+python -m DREAMwalk.generate_similarity_net \
+    --network_file msi_inputs/input_network.txt \
+    --hierarchy_file msi_inputs/hierarchy_file.csv \
+    --output_file msi_inputs/input_similarity_network.txt \
+    --cut_off 0.5
+```
+
+### 2. Run cross-validation (slow: trains one embedding per seed)
+```
+PYTHONHASHSEED=0 python -m DREAMwalk.run_cv \
+    --network_file msi_inputs/input_network.txt \
+    --sim_network_file msi_inputs/input_similarity_network.txt \
+    --node_type_file msi_inputs/nodetypes.tsv \
+    --msi_dir data --output_dir msi_cv
+```
+Saves results in `msi_cv/cv_metrics.csv`
+
 ### Software requirements
 
 **Operating system**

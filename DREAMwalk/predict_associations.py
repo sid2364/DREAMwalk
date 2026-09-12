@@ -23,10 +23,9 @@ def parse_args():
     args = {'embeddingf':args.embedding_file,
      'pairf':args.pair_file,
      'seed':args.seed,
-     'patience':args.patience,
      'modelf':args.model_checkpoint,
      'testr':args.test_ratio,
-     'validr':args.validation_ratio
+     'validr':args.valid_ratio
      }
     return args
     
@@ -75,18 +74,21 @@ def return_scores(target_list, pred_list):
             scores.append(metric(target_list, pred_list.round())) 
     return scores
 
+def make_classifier(seed:int=42):
+    return XGBClassifier(base_score = 0.5, booster = 'gbtree',eval_metric ='error',objective = 'binary:logistic',
+        gamma = 0,learning_rate = 0.1, max_depth = 6,n_estimators = 500,
+        tree_method = 'auto',min_child_weight = 4,subsample = 0.8, colsample_bytree = 0.9,
+        scale_pos_weight = 1,max_delta_step = 1,seed = seed)
+
 
 def predict_dda(embeddingf:str, pairf:str, modelf:str='clf.pkl', seed:int=42,
                 validr:float=0.1, testr:float=0.1):
 
     set_seed(seed)
     x,y = split_dataset(pairf, embeddingf, validr, testr, seed)
-    
-    clf = XGBClassifier(base_score = 0.5, booster = 'gbtree',eval_metric ='error',objective = 'binary:logistic',
-        gamma = 0,learning_rate = 0.1, max_depth = 6,n_estimators = 500,
-        tree_method = 'auto',min_child_weight = 4,subsample = 0.8, colsample_bytree = 0.9,
-        scale_pos_weight = 1,max_delta_step = 1,seed = seed)
-    
+
+    clf = make_classifier(seed)
+
     clf.fit(x['train'], y['train'])
     
     preds = {}
