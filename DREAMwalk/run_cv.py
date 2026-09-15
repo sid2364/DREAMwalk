@@ -122,7 +122,9 @@ def main():
 
     rows = []
     for seed in args.seeds:
-        rows += run_seed(args, seed, drugs, diseases)
+        seed_rows = run_seed(args, seed, drugs, diseases)
+        pd.DataFrame(seed_rows).to_csv(os.path.join(args.output_dir, f'cv_metrics_seed{seed}.csv'), index=False)
+        rows += seed_rows
         # rewrite after every seed so a crash keeps the finished results
         metrics = pd.DataFrame(rows)
         metrics.to_csv(os.path.join(args.output_dir, 'cv_metrics.csv'), index=False)

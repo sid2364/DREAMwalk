@@ -70,7 +70,7 @@ PYTHONHASHSEED=0 python -m DREAMwalk.run_cv \
     --node_type_file msi_inputs/nodetypes.tsv \
     --msi_dir data --output_dir msi_cv
 ```
-Saves results in `msi_cv/cv_metrics.csv`
+Saves per-seed results in `msi_cv/cv_metrics_seed{N}.csv` and all seeds combined in `msi_cv/cv_metrics.csv`. Pass e.g. `--seeds 42 43 44 45 46 47 48 49 50 51` for 10 seeds (default: 42 43 44).
 
 ### Software requirements
 
