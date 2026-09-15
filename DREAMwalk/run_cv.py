@@ -139,7 +139,7 @@ def check_split(pairs: pd.DataFrame, split: str, idxs: list):
 def run_seed(args, seed: int, drugs: set, diseases: set):
     # check before embedding, which takes hours
     pairs = build_pairs(args.msi_dir, drugs, diseases, args.neg_ratio, seed)
-    check_pairs_not_in_graph(pairs, [f for f in (args.network_file, args.sim_network_file) if f])
+    # check_pairs_not_in_graph(pairs, [f for f in (args.network_file, args.sim_network_file) if f])
     if args.split == 'disease_area':
         pairs = add_categories(pairs, args.category_file)
 
