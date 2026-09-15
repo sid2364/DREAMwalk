@@ -7,7 +7,8 @@ convert the MSI data into DREAMwalk input files:
   
 tab-separated despite the extension, but that's what predict_associations expects
 
-drug-indication edges from (6_drug_indication_df.tsv) are not added to the input_network.txt!!!
+drug-indication edges from (6_drug_indication_df.tsv) are only added to input_network.txt when
+type 6 is enabled in EDGE_FILES (ablation: drug-disease info in embedding training, i.e. leakage)
 """
 import argparse
 import os
@@ -47,6 +48,10 @@ def build_network(msi_dir: str):
     node2type = {}
     for edge_type, fname in EDGE_FILES:
         df = pd.read_csv(os.path.join(msi_dir, fname), sep='\t', dtype=str)
+        if fname == '6_drug_indication_df.tsv':
+            # unlike files 1-5 this has no node_1/node_2 layout, so map it onto one
+            df = df.rename(columns={'drug': 'node_1', 'indication': 'node_2'})
+            df = df.assign(node_1_type='drug', node_2_type='indication')
         for n1, n2, t1, t2 in df[['node_1', 'node_2', 'node_1_type', 'node_2_type']].itertuples(index=False):
             node2type[n1] = NODE_TYPES[t1]
             node2type[n2] = NODE_TYPES[t2]
