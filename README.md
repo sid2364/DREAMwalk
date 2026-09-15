@@ -62,15 +62,30 @@ python -m DREAMwalk.generate_similarity_net \
     --cut_off 0.5
 ```
 
+### 1b. Disease -> MeSH category mapping (only needed for `--split disease_area`)
+```
+wget -P data https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.xml
+wget -O data/mondo.obo http://purl.obolibrary.org/obo/mondo.obo
+python -m DREAMwalk.disease_categories --msi_dir data --output_dir msi_inputs
+```
+Maps the MSI UMLS CUIs to MeSH descriptors (via MONDO xrefs, falling back to exact name matching) and writes each disease's top-level MeSH category to `msi_inputs/disease_categories.tsv`.
+
 ### 2. Run cross-validation (slow: trains one embedding per seed)
 ```
-PYTHONHASHSEED=0 python -m DREAMwalk.run_cv \
+python -m DREAMwalk.run_cv \
     --network_file msi_inputs/input_network.txt \
     --sim_network_file msi_inputs/input_similarity_network.txt \
     --node_type_file msi_inputs/nodetypes.tsv \
-    --msi_dir data --output_dir msi_cv
+    --msi_dir data --output_dir msi_cv \
+    --split disease_area
+    --seeds 42 43 44 45 46 47 48 49 50 51
 ```
-Saves per-seed results in `msi_cv/cv_metrics_seed{N}.csv` and all seeds combined in `msi_cv/cv_metrics.csv`. Pass e.g. `--seeds 42 43 44 45 46 47 48 49 50 51` for 10 seeds (default: 42 43 44).
+`--split` controls how pairs are divided:
+- `random`: stratified K-fold over pairs (`--folds`, default 5)
+- `disease`: stratified group K-fold with diseases as groups, so test diseases never appear in training
+- `disease_area`: the paper's disease split. Whole MeSH categories go to test / valid / train at ~1:1:8 of the pairs, repeated `--repeats` times (default 10). Needs step 1b.
+
+saves per seed results in `msi_cv/cv_metrics_{split}_seed{N}.csv` and all seeds combined in `msi_cv/cv_metrics_{split}.csv`. The embedding `msi_cv/embeddings_seed{N}.pkl` is shared across split modes, so running a second `--split` only retrains XGBoost. 
 
 ### Software requirements
 
