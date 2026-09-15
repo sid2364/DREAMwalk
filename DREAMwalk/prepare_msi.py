@@ -21,7 +21,7 @@ EDGE_FILES = [
     (3, '3_protein_to_protein.tsv'),
     (4, '4_protein_to_biological_function.tsv'),
     (5, '5_biological_function_to_biological_function.tsv'),
-    # (6, '6_drug_indication_df.tsv')
+    (6, '6_drug_indication_df.tsv') # TODO make configurable via cmd option, but for now hardcoding
 ]
 
 # MSI node type -> DREAMwalk node type (HeterogeneousSG knows drug/disease/gene/etc)
