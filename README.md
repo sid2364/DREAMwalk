@@ -82,8 +82,8 @@ python -m DREAMwalk.run_cv \
 ```
 `--split` controls how pairs are divided:
 - `random`: stratified K-fold over pairs (`--folds`, default 5)
-- `disease`: stratified group K-fold with diseases as groups, so test diseases never appear in training
-- `disease_area`: the paper's disease split. Whole MeSH categories go to test / valid / train at ~1:1:8 of the pairs, repeated `--repeats` times (default 10). Needs step 1b.
+- `disease`: the paper's disease split. stratified group K-fold with diseases as groups, so test diseases never appear in training
+- `disease_area`: the hardest case but probably where generalisation can be tested the best. Whole MeSH categories go to test / valid / train at ~1:1:8 of the pairs, repeated `--repeats` times (default 10). Needs step 1b.
 
 saves per seed results in `msi_cv/cv_metrics_{split}_seed{N}.csv` and all seeds combined in `msi_cv/cv_metrics_{split}.csv`. The embedding `msi_cv/embeddings_seed{N}.pkl` is shared across split modes, so running a second `--split` only retrains XGBoost. 
 

@@ -7,8 +7,7 @@ convert the MSI data into DREAMwalk input files:
   
 tab-separated despite the extension, but that's what predict_associations expects
 
-drug-indication edges from (6_drug_indication_df.tsv) are only added to input_network.txt when
-type 6 is enabled in EDGE_FILES (ablation: drug-disease info in embedding training, i.e. leakage)
+drug-indication edges from (6_drug_indication_df.tsv) are only added to input_network.txt when type 6 is enabled in EDGE_FILES
 """
 import argparse
 import os
