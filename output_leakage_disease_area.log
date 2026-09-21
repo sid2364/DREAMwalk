@@ -1,0 +1,327 @@
+nohup: ignoring input
+droppping 1270/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10582 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 42
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed42.pkl
+random seed with 42
+seed 42 disease_area 0 | n train/valid/test: 7405/636/1448 | acc: 0.8066 | auroc: 0.9203 | aupr: 0.9092 | f1: 0.7767 | test categories: C12|C23
+random seed with 42
+seed 42 disease_area 1 | n train/valid/test: 7027/1288/1174 | acc: 0.8807 | auroc: 0.9638 | aupr: 0.9531 | f1: 0.8495 | test categories: C01|C11|C15
+random seed with 42
+seed 42 disease_area 2 | n train/valid/test: 7185/1262/1042 | acc: 0.7869 | auroc: 0.9246 | aupr: 0.9390 | f1: 0.7963 | test categories: C14
+random seed with 42
+seed 42 disease_area 3 | n train/valid/test: 7132/1352/1005 | acc: 0.7980 | auroc: 0.9237 | aupr: 0.9372 | f1: 0.8027 | test categories: C01|C05|C26|F03
+random seed with 42
+seed 42 disease_area 4 | n train/valid/test: 7464/1034/991 | acc: 0.7053 | auroc: 0.8886 | aupr: 0.8910 | f1: 0.6395 | test categories: C18|F03
+random seed with 42
+seed 42 disease_area 5 | n train/valid/test: 7354/1042/1093 | acc: 0.8765 | auroc: 0.9564 | aupr: 0.9536 | f1: 0.8657 | test categories: C06|C07|C11
+random seed with 42
+seed 42 disease_area 6 | n train/valid/test: 7011/1042/1436 | acc: 0.8726 | auroc: 0.9560 | aupr: 0.9484 | f1: 0.8567 | test categories: C01|C06|C07|C09|C11|C25|F01
+random seed with 42
+seed 42 disease_area 7 | n train/valid/test: 7023/1387/1079 | acc: 0.8508 | auroc: 0.9495 | aupr: 0.9544 | f1: 0.8453 | test categories: C07|C08|C11|C25
+random seed with 42
+seed 42 disease_area 8 | n train/valid/test: 7437/588/1464 | acc: 0.8511 | auroc: 0.9466 | aupr: 0.9437 | f1: 0.8392 | test categories: C04|C06|F01
+random seed with 42
+seed 42 disease_area 9 | n train/valid/test: 7551/930/1008 | acc: 0.8700 | auroc: 0.9604 | aupr: 0.9647 | f1: 0.8777 | test categories: C11|C17
+droppping 1244/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10608 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 43
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed43.pkl
+random seed with 43
+seed 43 disease_area 0 | n train/valid/test: 7428/1100/1002 | acc: 0.8972 | auroc: 0.9686 | aupr: 0.9521 | f1: 0.8522 | test categories: C01|C07|C15|C16
+random seed with 43
+seed 43 disease_area 1 | n train/valid/test: 7103/1027/1400 | acc: 0.8271 | auroc: 0.9345 | aupr: 0.9468 | f1: 0.8331 | test categories: A10|C08|C20|C23|F01
+random seed with 43
+seed 43 disease_area 2 | n train/valid/test: 7204/863/1463 | acc: 0.8059 | auroc: 0.9127 | aupr: 0.9048 | f1: 0.7394 | test categories: C07|C15|C18
+random seed with 43
+seed 43 disease_area 3 | n train/valid/test: 6861/1343/1326 | acc: 0.8424 | auroc: 0.9449 | aupr: 0.9294 | f1: 0.7969 | test categories: C01|C15|C19|F03
+random seed with 43
+seed 43 disease_area 4 | n train/valid/test: 6854/1258/1418 | acc: 0.8590 | auroc: 0.9580 | aupr: 0.9703 | f1: 0.8726 | test categories: C05|C06|C11
+random seed with 43
+seed 43 disease_area 5 | n train/valid/test: 7349/515/1666 | acc: 0.8463 | auroc: 0.9468 | aupr: 0.9310 | f1: 0.8043 | test categories: C04|C12
+random seed with 43
+seed 43 disease_area 6 | n train/valid/test: 7266/657/1607 | acc: 0.7853 | auroc: 0.9034 | aupr: 0.9212 | f1: 0.7658 | test categories: A10|C05|C18|C19
+random seed with 43
+seed 43 disease_area 7 | n train/valid/test: 6744/1684/1102 | acc: 0.8820 | auroc: 0.9652 | aupr: 0.9764 | f1: 0.8992 | test categories: C05|C06
+random seed with 43
+seed 43 disease_area 8 | n train/valid/test: 7559/644/1327 | acc: 0.8229 | auroc: 0.9578 | aupr: 0.9554 | f1: 0.8017 | test categories: C01|C05|C15
+random seed with 43
+seed 43 disease_area 9 | n train/valid/test: 7536/776/1218 | acc: 0.8785 | auroc: 0.9584 | aupr: 0.9687 | f1: 0.8872 | test categories: C06|C08|C25
+droppping 1226/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10626 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 44
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed44.pkl
+random seed with 44
+seed 44 disease_area 0 | n train/valid/test: 7476/912/1168 | acc: 0.7380 | auroc: 0.9084 | aupr: 0.9059 | f1: 0.6695 | test categories: A10|C11|C18|C26|F01
+random seed with 44
+seed 44 disease_area 1 | n train/valid/test: 6817/1759/980 | acc: 0.7949 | auroc: 0.9514 | aupr: 0.9685 | f1: 0.8113 | test categories: C05|C09|C11|C20
+random seed with 44
+seed 44 disease_area 2 | n train/valid/test: 7257/1290/1009 | acc: 0.8266 | auroc: 0.9483 | aupr: 0.9614 | f1: 0.8464 | test categories: C14
+random seed with 44
+seed 44 disease_area 3 | n train/valid/test: 7052/606/1898 | acc: 0.7698 | auroc: 0.9318 | aupr: 0.9324 | f1: 0.7375 | test categories: C01|C05|C10|C20
+random seed with 44
+seed 44 disease_area 4 | n train/valid/test: 7392/1162/1002 | acc: 0.7475 | auroc: 0.9133 | aupr: 0.8972 | f1: 0.6640 | test categories: C10
+random seed with 44
+seed 44 disease_area 5 | n train/valid/test: 7289/566/1701 | acc: 0.8242 | auroc: 0.9423 | aupr: 0.9151 | f1: 0.7655 | test categories: C04|C12
+random seed with 44
+seed 44 disease_area 6 | n train/valid/test: 7141/1210/1205 | acc: 0.7892 | auroc: 0.9240 | aupr: 0.9468 | f1: 0.8031 | test categories: C05|C07|C08
+random seed with 44
+seed 44 disease_area 7 | n train/valid/test: 7461/373/1722 | acc: 0.7729 | auroc: 0.9147 | aupr: 0.9231 | f1: 0.7492 | test categories: C17|C18|F03
+random seed with 44
+seed 44 disease_area 8 | n train/valid/test: 7572/743/1241 | acc: 0.8767 | auroc: 0.9543 | aupr: 0.9610 | f1: 0.8857 | test categories: C06|C08|C25
+random seed with 44
+seed 44 disease_area 9 | n train/valid/test: 7124/1413/1019 | acc: 0.8322 | auroc: 0.9292 | aupr: 0.9229 | f1: 0.8309 | test categories: C06|C07|C09|C25|C26|F01|F03
+droppping 1283/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10569 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 45
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed45.pkl
+random seed with 45
+seed 45 disease_area 0 | n train/valid/test: 6568/1647/1242 | acc: 0.8341 | auroc: 0.9519 | aupr: 0.9619 | f1: 0.8446 | test categories: C06|C17
+random seed with 45
+seed 45 disease_area 1 | n train/valid/test: 7513/931/1013 | acc: 0.7779 | auroc: 0.9320 | aupr: 0.9465 | f1: 0.7938 | test categories: C14
+random seed with 45
+seed 45 disease_area 2 | n train/valid/test: 7040/1166/1251 | acc: 0.8385 | auroc: 0.9314 | aupr: 0.9295 | f1: 0.8300 | test categories: A10|C08|C09|C16|C19|C26|F03
+random seed with 45
+seed 45 disease_area 3 | n train/valid/test: 6968/1292/1197 | acc: 0.8262 | auroc: 0.9483 | aupr: 0.9489 | f1: 0.8246 | test categories: C06|C23
+random seed with 45
+seed 45 disease_area 4 | n train/valid/test: 7165/1200/1092 | acc: 0.7473 | auroc: 0.9085 | aupr: 0.9211 | f1: 0.7482 | test categories: C07|C14
+random seed with 45
+seed 45 disease_area 5 | n train/valid/test: 6813/1248/1396 | acc: 0.8066 | auroc: 0.9018 | aupr: 0.9110 | f1: 0.7840 | test categories: C06|C18
+random seed with 45
+seed 45 disease_area 6 | n train/valid/test: 7331/980/1146 | acc: 0.8979 | auroc: 0.9672 | aupr: 0.9623 | f1: 0.8845 | test categories: C04|C09|C19|F01
+random seed with 45
+seed 45 disease_area 7 | n train/valid/test: 7562/882/1013 | acc: 0.7562 | auroc: 0.9330 | aupr: 0.9447 | f1: 0.7645 | test categories: C14
+random seed with 45
+seed 45 disease_area 8 | n train/valid/test: 7536/751/1170 | acc: 0.8385 | auroc: 0.9503 | aupr: 0.9454 | f1: 0.8191 | test categories: C15|C23
+random seed with 45
+seed 45 disease_area 9 | n train/valid/test: 7002/1292/1163 | acc: 0.8908 | auroc: 0.9637 | aupr: 0.9592 | f1: 0.8812 | test categories: C04|C09|C11
+droppping 1275/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10577 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 46
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed46.pkl
+random seed with 46
+seed 46 disease_area 0 | n train/valid/test: 7325/1039/1089 | acc: 0.7989 | auroc: 0.9167 | aupr: 0.8902 | f1: 0.7575 | test categories: C09|C12|F03
+random seed with 46
+seed 46 disease_area 1 | n train/valid/test: 7416/1029/1008 | acc: 0.8075 | auroc: 0.9303 | aupr: 0.9493 | f1: 0.8271 | test categories: C14
+random seed with 46
+seed 46 disease_area 2 | n train/valid/test: 6938/1437/1078 | acc: 0.7774 | auroc: 0.9215 | aupr: 0.9577 | f1: 0.8042 | test categories: C05|C08
+random seed with 46
+seed 46 disease_area 3 | n train/valid/test: 7068/1131/1254 | acc: 0.8142 | auroc: 0.9417 | aupr: 0.9471 | f1: 0.8066 | test categories: C01|C11|C17
+random seed with 46
+seed 46 disease_area 4 | n train/valid/test: 7272/503/1678 | acc: 0.8123 | auroc: 0.9350 | aupr: 0.9369 | f1: 0.7745 | test categories: A10|C11|C15|C18|F01
+random seed with 46
+seed 46 disease_area 5 | n train/valid/test: 7111/1389/953 | acc: 0.8604 | auroc: 0.9502 | aupr: 0.9586 | f1: 0.8639 | test categories: C17|C19
+random seed with 46
+seed 46 disease_area 6 | n train/valid/test: 7075/583/1795 | acc: 0.7315 | auroc: 0.8780 | aupr: 0.8740 | f1: 0.6522 | test categories: C09|C10|C18
+random seed with 46
+seed 46 disease_area 7 | n train/valid/test: 7478/1008/967 | acc: 0.8397 | auroc: 0.9353 | aupr: 0.9170 | f1: 0.8025 | test categories: C07|C09|C12|F01
+random seed with 46
+seed 46 disease_area 8 | n train/valid/test: 7498/953/1002 | acc: 0.6876 | auroc: 0.8401 | aupr: 0.8477 | f1: 0.6033 | test categories: C18|F03
+random seed with 46
+seed 46 disease_area 9 | n train/valid/test: 7176/1182/1095 | acc: 0.7890 | auroc: 0.9231 | aupr: 0.9385 | f1: 0.7965 | test categories: C14|C16
+droppping 1296/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10556 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 47
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed47.pkl
+random seed with 47
+seed 47 disease_area 0 | n train/valid/test: 7358/769/1302 | acc: 0.8372 | auroc: 0.9403 | aupr: 0.9487 | f1: 0.8418 | test categories: C07|C08|C23
+random seed with 47
+seed 47 disease_area 1 | n train/valid/test: 7256/523/1650 | acc: 0.7558 | auroc: 0.9213 | aupr: 0.9264 | f1: 0.7245 | test categories: C10|C17
+random seed with 47
+seed 47 disease_area 2 | n train/valid/test: 7095/1360/974 | acc: 0.8275 | auroc: 0.9431 | aupr: 0.9346 | f1: 0.8005 | test categories: A10|C01|C16|C23|C25|C26
+random seed with 47
+seed 47 disease_area 3 | n train/valid/test: 7167/617/1645 | acc: 0.8365 | auroc: 0.9511 | aupr: 0.9425 | f1: 0.8018 | test categories: A10|C04|C09|C15|C19|F01
+random seed with 47
+seed 47 disease_area 4 | n train/valid/test: 7485/0/1944 | acc: 0.8251 | auroc: 0.9410 | aupr: 0.9522 | f1: 0.8332 | test categories: C01|C14|C17
+random seed with 47
+seed 47 disease_area 5 | n train/valid/test: 7507/871/1051 | acc: 0.7193 | auroc: 0.9024 | aupr: 0.8808 | f1: 0.6072 | test categories: C10|C16
+random seed with 47
+seed 47 disease_area 6 | n train/valid/test: 6902/1309/1218 | acc: 0.8530 | auroc: 0.9546 | aupr: 0.9582 | f1: 0.8482 | test categories: C15|C17
+random seed with 47
+seed 47 disease_area 7 | n train/valid/test: 6869/1372/1188 | acc: 0.7593 | auroc: 0.9228 | aupr: 0.9497 | f1: 0.7786 | test categories: C05|C17
+random seed with 47
+seed 47 disease_area 8 | n train/valid/test: 7117/1046/1266 | acc: 0.7504 | auroc: 0.9195 | aupr: 0.9040 | f1: 0.6742 | test categories: C09|C10|C19
+random seed with 47
+seed 47 disease_area 9 | n train/valid/test: 7360/915/1154 | acc: 0.8336 | auroc: 0.9441 | aupr: 0.9157 | f1: 0.7659 | test categories: C01|C12|C25|C26
+droppping 1282/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10570 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 48
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed48.pkl
+random seed with 48
+seed 48 disease_area 0 | n train/valid/test: 7432/854/1164 | acc: 0.8247 | auroc: 0.9322 | aupr: 0.9476 | f1: 0.8457 | test categories: C14|C20|F01
+random seed with 48
+seed 48 disease_area 1 | n train/valid/test: 7518/620/1312 | acc: 0.8780 | auroc: 0.9586 | aupr: 0.9605 | f1: 0.8756 | test categories: C07|C15|C17|C25
+random seed with 48
+seed 48 disease_area 2 | n train/valid/test: 7288/1207/955 | acc: 0.8869 | auroc: 0.9617 | aupr: 0.9623 | f1: 0.8884 | test categories: C06|C11
+random seed with 48
+seed 48 disease_area 3 | n train/valid/test: 6987/1098/1365 | acc: 0.8256 | auroc: 0.9425 | aupr: 0.9411 | f1: 0.8120 | test categories: C05|C12
+random seed with 48
+seed 48 disease_area 4 | n train/valid/test: 6738/1668/1044 | acc: 0.7519 | auroc: 0.8601 | aupr: 0.8645 | f1: 0.6758 | test categories: C18|C19
+random seed with 48
+seed 48 disease_area 5 | n train/valid/test: 7316/865/1269 | acc: 0.8448 | auroc: 0.9459 | aupr: 0.9610 | f1: 0.8563 | test categories: C17|C23
+random seed with 48
+seed 48 disease_area 6 | n train/valid/test: 7478/961/1011 | acc: 0.8625 | auroc: 0.9561 | aupr: 0.9450 | f1: 0.8359 | test categories: C12|C20|F01
+random seed with 48
+seed 48 disease_area 7 | n train/valid/test: 7145/608/1697 | acc: 0.8444 | auroc: 0.9439 | aupr: 0.9440 | f1: 0.8460 | test categories: C07|C14|C15|C25|F01
+random seed with 48
+seed 48 disease_area 8 | n train/valid/test: 7160/1107/1183 | acc: 0.8859 | auroc: 0.9656 | aupr: 0.9693 | f1: 0.8878 | test categories: C15|C17
+random seed with 48
+seed 48 disease_area 9 | n train/valid/test: 7346/905/1199 | acc: 0.8557 | auroc: 0.9485 | aupr: 0.9662 | f1: 0.8794 | test categories: C05|C17|C25
+droppping 1278/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10574 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 49
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed49.pkl
+random seed with 49
+seed 49 disease_area 0 | n train/valid/test: 7156/1253/1044 | acc: 0.7835 | auroc: 0.9357 | aupr: 0.9454 | f1: 0.7907 | test categories: C14
+random seed with 49
+seed 49 disease_area 1 | n train/valid/test: 7397/525/1531 | acc: 0.8080 | auroc: 0.9480 | aupr: 0.9522 | f1: 0.8029 | test categories: A10|C07|C11|C14|C16
+random seed with 49
+seed 49 disease_area 2 | n train/valid/test: 7169/1266/1018 | acc: 0.8114 | auroc: 0.9325 | aupr: 0.9361 | f1: 0.7996 | test categories: C19|C20|C23|C25
+random seed with 49
+seed 49 disease_area 3 | n train/valid/test: 6842/1454/1157 | acc: 0.8168 | auroc: 0.9194 | aupr: 0.8943 | f1: 0.7343 | test categories: C12|C19
+random seed with 49
+seed 49 disease_area 4 | n train/valid/test: 7386/1000/1067 | acc: 0.8135 | auroc: 0.9355 | aupr: 0.9458 | f1: 0.8253 | test categories: C09|C14
+random seed with 49
+seed 49 disease_area 5 | n train/valid/test: 7418/735/1300 | acc: 0.7631 | auroc: 0.9059 | aupr: 0.9305 | f1: 0.7488 | test categories: C05|C18
+random seed with 49
+seed 49 disease_area 6 | n train/valid/test: 6829/1674/950 | acc: 0.7189 | auroc: 0.8964 | aupr: 0.8855 | f1: 0.6491 | test categories: C10
+random seed with 49
+seed 49 disease_area 7 | n train/valid/test: 6914/1070/1469 | acc: 0.7556 | auroc: 0.8838 | aupr: 0.8889 | f1: 0.7198 | test categories: A10|C08|C16|C18|C26
+random seed with 49
+seed 49 disease_area 8 | n train/valid/test: 7487/1016/950 | acc: 0.7232 | auroc: 0.9029 | aupr: 0.8855 | f1: 0.6571 | test categories: C10
+random seed with 49
+seed 49 disease_area 9 | n train/valid/test: 7240/950/1263 | acc: 0.8709 | auroc: 0.9537 | aupr: 0.9647 | f1: 0.8833 | test categories: C06|C17
+droppping 1259/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10593 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 50
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed50.pkl
+random seed with 50
+seed 50 disease_area 0 | n train/valid/test: 7601/935/970 | acc: 0.8711 | auroc: 0.9633 | aupr: 0.9552 | f1: 0.8436 | test categories: C07|C11|C15
+random seed with 50
+seed 50 disease_area 1 | n train/valid/test: 7421/704/1381 | acc: 0.8125 | auroc: 0.9374 | aupr: 0.9501 | f1: 0.8225 | test categories: C11|C14|C25
+random seed with 50
+seed 50 disease_area 2 | n train/valid/test: 7475/884/1147 | acc: 0.8274 | auroc: 0.9353 | aupr: 0.9401 | f1: 0.8339 | test categories: C07|C14
+random seed with 50
+seed 50 disease_area 3 | n train/valid/test: 7602/889/1015 | acc: 0.8197 | auroc: 0.9430 | aupr: 0.9317 | f1: 0.7669 | test categories: C01|C15|F03
+random seed with 50
+seed 50 disease_area 4 | n train/valid/test: 7405/1125/976 | acc: 0.7070 | auroc: 0.8880 | aupr: 0.8702 | f1: 0.6135 | test categories: C10
+random seed with 50
+seed 50 disease_area 5 | n train/valid/test: 6656/976/1874 | acc: 0.7289 | auroc: 0.8957 | aupr: 0.9002 | f1: 0.6936 | test categories: C14|C18|C25
+random seed with 50
+seed 50 disease_area 6 | n train/valid/test: 7313/1009/1184 | acc: 0.8336 | auroc: 0.9448 | aupr: 0.9649 | f1: 0.8567 | test categories: C05|C17
+random seed with 50
+seed 50 disease_area 7 | n train/valid/test: 7235/1009/1262 | acc: 0.7892 | auroc: 0.9280 | aupr: 0.9413 | f1: 0.7862 | test categories: C08|C16|C23
+random seed with 50
+seed 50 disease_area 8 | n train/valid/test: 7075/1143/1288 | acc: 0.8494 | auroc: 0.9425 | aupr: 0.9572 | f1: 0.8657 | test categories: C08|C17|C25
+random seed with 50
+seed 50 disease_area 9 | n train/valid/test: 7257/902/1347 | acc: 0.8434 | auroc: 0.9440 | aupr: 0.9589 | f1: 0.8558 | test categories: C08|C20|C23|F01
+droppping 1277/11852 pairs with no MeSH category ( 504 positives)
+Before: 11852 pairs
+After: 10575 pairs
+/home/ssah0028/aics/DREAMwalk/DREAMwalk/run_cv.py:84: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  return pairs[~unmapped].reset_index(drop=True)
+random seed with 51
+Reading network files...
+Training edge type transition matrix...
+Generating paths...
+Generating node embeddings...
+Node embeddings saved: msi_cv_ablation/embeddings_seed51.pkl
+random seed with 51
+seed 51 disease_area 0 | n train/valid/test: 7430/820/1219 | acc: 0.7432 | auroc: 0.8956 | aupr: 0.8939 | f1: 0.6631 | test categories: C07|C11|C18|C26
+random seed with 51
+seed 51 disease_area 1 | n train/valid/test: 6626/1669/1174 | acc: 0.8135 | auroc: 0.9276 | aupr: 0.9302 | f1: 0.7967 | test categories: C01|C11|C23
+random seed with 51
+seed 51 disease_area 2 | n train/valid/test: 7279/512/1678 | acc: 0.8010 | auroc: 0.9052 | aupr: 0.8866 | f1: 0.7387 | test categories: A10|C12|C18
+random seed with 51
+seed 51 disease_area 3 | n train/valid/test: 7181/1055/1233 | acc: 0.8143 | auroc: 0.9310 | aupr: 0.9441 | f1: 0.8169 | test categories: C08|C23
+random seed with 51
+seed 51 disease_area 4 | n train/valid/test: 7532/873/1064 | acc: 0.8731 | auroc: 0.9589 | aupr: 0.9510 | f1: 0.8541 | test categories: C04|C19
+random seed with 51
+seed 51 disease_area 5 | n train/valid/test: 7481/906/1082 | acc: 0.8530 | auroc: 0.9415 | aupr: 0.9435 | f1: 0.8566 | test categories: A10|C05|C16|C19|C20|C25|F01
+random seed with 51
+seed 51 disease_area 6 | n train/valid/test: 7429/220/1820 | acc: 0.7890 | auroc: 0.8941 | aupr: 0.8777 | f1: 0.7326 | test categories: C10|C12
+random seed with 51
+seed 51 disease_area 7 | n train/valid/test: 7563/892/1014 | acc: 0.8639 | auroc: 0.9514 | aupr: 0.9461 | f1: 0.8506 | test categories: C06|C07|C19|F01
+random seed with 51
+seed 51 disease_area 8 | n train/valid/test: 7027/1265/1177 | acc: 0.8836 | auroc: 0.9562 | aupr: 0.9523 | f1: 0.8714 | test categories: C06|C15
+random seed with 51
+seed 51 disease_area 9 | n train/valid/test: 6572/1792/1105 | acc: 0.8516 | auroc: 0.9493 | aupr: 0.9450 | f1: 0.8373 | test categories: C04|C11
+==================================================
+         acc   auroc    aupr      f1
+seed                                
+42    0.8299  0.9390  0.9394  0.8149
+43    0.8447  0.9450  0.9456  0.8252
+44    0.7972  0.9317  0.9334  0.7763
+45    0.8214  0.9388  0.9431  0.8175
+46    0.7919  0.9172  0.9217  0.7688
+47    0.7998  0.9340  0.9313  0.7676
+48    0.8461  0.9415  0.9461  0.8403
+49    0.7865  0.9214  0.9229  0.7611
+50    0.8082  0.9322  0.9370  0.7938
+51    0.8286  0.9311  0.9270  0.8018
+--------------------------------------------------
+All 100 disease_area splits: acc: 0.8154 ± 0.0494 | auroc: 0.9332 ± 0.0245 | aupr: 0.9348 ± 0.0278 | f1: 0.7967 ± 0.0714
+

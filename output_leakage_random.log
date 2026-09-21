@@ -1,0 +1,126 @@
+nohup: ignoring input
+Reusing msi_cv_ablation/embeddings_seed42.pkl
+random seed with 42
+seed 42 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9279 | auroc: 0.9815 | aupr: 0.9822 | f1: 0.9291
+random seed with 42
+seed 42 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9161 | auroc: 0.9738 | aupr: 0.9726 | f1: 0.9161
+random seed with 42
+seed 42 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9300 | auroc: 0.9785 | aupr: 0.9782 | f1: 0.9294
+random seed with 42
+seed 42 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9316 | auroc: 0.9830 | aupr: 0.9840 | f1: 0.9315
+random seed with 42
+seed 42 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9295 | auroc: 0.9797 | aupr: 0.9772 | f1: 0.9303
+Reusing msi_cv_ablation/embeddings_seed43.pkl
+random seed with 43
+seed 43 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9291 | auroc: 0.9779 | aupr: 0.9783 | f1: 0.9294
+random seed with 43
+seed 43 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9350 | auroc: 0.9827 | aupr: 0.9830 | f1: 0.9346
+random seed with 43
+seed 43 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9376 | auroc: 0.9847 | aupr: 0.9852 | f1: 0.9377
+random seed with 43
+seed 43 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9316 | auroc: 0.9823 | aupr: 0.9821 | f1: 0.9324
+random seed with 43
+seed 43 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9283 | auroc: 0.9801 | aupr: 0.9775 | f1: 0.9281
+Reusing msi_cv_ablation/embeddings_seed44.pkl
+random seed with 44
+seed 44 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9270 | auroc: 0.9785 | aupr: 0.9796 | f1: 0.9269
+random seed with 44
+seed 44 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9228 | auroc: 0.9758 | aupr: 0.9744 | f1: 0.9234
+random seed with 44
+seed 44 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9312 | auroc: 0.9828 | aupr: 0.9831 | f1: 0.9319
+random seed with 44
+seed 44 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9215 | auroc: 0.9776 | aupr: 0.9788 | f1: 0.9215
+random seed with 44
+seed 44 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9300 | auroc: 0.9808 | aupr: 0.9809 | f1: 0.9300
+Reusing msi_cv_ablation/embeddings_seed45.pkl
+random seed with 45
+seed 45 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9300 | auroc: 0.9782 | aupr: 0.9784 | f1: 0.9306
+random seed with 45
+seed 45 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9334 | auroc: 0.9811 | aupr: 0.9817 | f1: 0.9338
+random seed with 45
+seed 45 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9232 | auroc: 0.9765 | aupr: 0.9741 | f1: 0.9235
+random seed with 45
+seed 45 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9270 | auroc: 0.9802 | aupr: 0.9820 | f1: 0.9269
+random seed with 45
+seed 45 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9295 | auroc: 0.9810 | aupr: 0.9799 | f1: 0.9297
+Reusing msi_cv_ablation/embeddings_seed46.pkl
+random seed with 46
+seed 46 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9350 | auroc: 0.9822 | aupr: 0.9824 | f1: 0.9349
+random seed with 46
+seed 46 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9241 | auroc: 0.9804 | aupr: 0.9806 | f1: 0.9251
+random seed with 46
+seed 46 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9241 | auroc: 0.9782 | aupr: 0.9785 | f1: 0.9241
+random seed with 46
+seed 46 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9198 | auroc: 0.9765 | aupr: 0.9766 | f1: 0.9200
+random seed with 46
+seed 46 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9173 | auroc: 0.9734 | aupr: 0.9717 | f1: 0.9175
+Reusing msi_cv_ablation/embeddings_seed47.pkl
+random seed with 47
+seed 47 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9304 | auroc: 0.9816 | aupr: 0.9817 | f1: 0.9308
+random seed with 47
+seed 47 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9329 | auroc: 0.9794 | aupr: 0.9800 | f1: 0.9328
+random seed with 47
+seed 47 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9376 | auroc: 0.9832 | aupr: 0.9826 | f1: 0.9379
+random seed with 47
+seed 47 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9219 | auroc: 0.9779 | aupr: 0.9767 | f1: 0.9223
+random seed with 47
+seed 47 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9308 | auroc: 0.9805 | aupr: 0.9799 | f1: 0.9307
+Reusing msi_cv_ablation/embeddings_seed48.pkl
+random seed with 48
+seed 48 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9287 | auroc: 0.9779 | aupr: 0.9787 | f1: 0.9287
+random seed with 48
+seed 48 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9300 | auroc: 0.9806 | aupr: 0.9801 | f1: 0.9295
+random seed with 48
+seed 48 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9232 | auroc: 0.9775 | aupr: 0.9777 | f1: 0.9240
+random seed with 48
+seed 48 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9300 | auroc: 0.9801 | aupr: 0.9807 | f1: 0.9301
+random seed with 48
+seed 48 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9295 | auroc: 0.9799 | aupr: 0.9784 | f1: 0.9302
+Reusing msi_cv_ablation/embeddings_seed49.pkl
+random seed with 49
+seed 49 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9241 | auroc: 0.9795 | aupr: 0.9791 | f1: 0.9235
+random seed with 49
+seed 49 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9249 | auroc: 0.9784 | aupr: 0.9777 | f1: 0.9253
+random seed with 49
+seed 49 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9354 | auroc: 0.9823 | aupr: 0.9799 | f1: 0.9357
+random seed with 49
+seed 49 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9308 | auroc: 0.9798 | aupr: 0.9805 | f1: 0.9313
+random seed with 49
+seed 49 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9236 | auroc: 0.9818 | aupr: 0.9829 | f1: 0.9234
+Reusing msi_cv_ablation/embeddings_seed50.pkl
+random seed with 50
+seed 50 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9325 | auroc: 0.9820 | aupr: 0.9833 | f1: 0.9327
+random seed with 50
+seed 50 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9262 | auroc: 0.9806 | aupr: 0.9816 | f1: 0.9269
+random seed with 50
+seed 50 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9215 | auroc: 0.9797 | aupr: 0.9786 | f1: 0.9212
+random seed with 50
+seed 50 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9291 | auroc: 0.9793 | aupr: 0.9791 | f1: 0.9295
+random seed with 50
+seed 50 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9249 | auroc: 0.9816 | aupr: 0.9825 | f1: 0.9237
+Reusing msi_cv_ablation/embeddings_seed51.pkl
+random seed with 51
+seed 51 random 0 | n train/valid/test: 9481/0/2371 | acc: 0.9270 | auroc: 0.9811 | aupr: 0.9813 | f1: 0.9281
+random seed with 51
+seed 51 random 1 | n train/valid/test: 9481/0/2371 | acc: 0.9258 | auroc: 0.9787 | aupr: 0.9784 | f1: 0.9263
+random seed with 51
+seed 51 random 2 | n train/valid/test: 9482/0/2370 | acc: 0.9186 | auroc: 0.9731 | aupr: 0.9718 | f1: 0.9187
+random seed with 51
+seed 51 random 3 | n train/valid/test: 9482/0/2370 | acc: 0.9228 | auroc: 0.9778 | aupr: 0.9785 | f1: 0.9236
+random seed with 51
+seed 51 random 4 | n train/valid/test: 9482/0/2370 | acc: 0.9232 | auroc: 0.9763 | aupr: 0.9763 | f1: 0.9231
+==================================================
+         acc   auroc    aupr      f1
+seed                                
+42    0.9270  0.9793  0.9789  0.9273
+43    0.9323  0.9815  0.9812  0.9324
+44    0.9265  0.9791  0.9794  0.9268
+45    0.9286  0.9794  0.9792  0.9289
+46    0.9241  0.9781  0.9780  0.9243
+47    0.9307  0.9805  0.9802  0.9309
+48    0.9283  0.9792  0.9791  0.9285
+49    0.9278  0.9804  0.9800  0.9279
+50    0.9268  0.9806  0.9810  0.9268
+51    0.9235  0.9774  0.9773  0.9240
+--------------------------------------------------
+All 50 random splits: acc: 0.9276 ± 0.0050 | auroc: 0.9796 ± 0.0025 | aupr: 0.9794 ± 0.0030 | f1: 0.9278 ± 0.0051
