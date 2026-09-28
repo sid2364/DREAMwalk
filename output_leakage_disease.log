@@ -1,0 +1,126 @@
+nohup: ignoring input
+Reusing msi_cv_ablation/embeddings_seed42.pkl
+random seed with 42
+seed 42 disease 0 | n train/valid/test: 9286/0/2566 | acc: 0.9065 | auroc: 0.9726 | aupr: 0.9722 | f1: 0.9083
+random seed with 42
+seed 42 disease 1 | n train/valid/test: 9613/0/2239 | acc: 0.9116 | auroc: 0.9705 | aupr: 0.9673 | f1: 0.9030
+random seed with 42
+seed 42 disease 2 | n train/valid/test: 9367/0/2485 | acc: 0.8962 | auroc: 0.9662 | aupr: 0.9652 | f1: 0.8962
+random seed with 42
+seed 42 disease 3 | n train/valid/test: 9490/0/2362 | acc: 0.8760 | auroc: 0.9647 | aupr: 0.9611 | f1: 0.8619
+random seed with 42
+seed 42 disease 4 | n train/valid/test: 9652/0/2200 | acc: 0.8923 | auroc: 0.9667 | aupr: 0.9607 | f1: 0.8871
+Reusing msi_cv_ablation/embeddings_seed43.pkl
+random seed with 43
+seed 43 disease 0 | n train/valid/test: 9416/0/2436 | acc: 0.9072 | auroc: 0.9752 | aupr: 0.9701 | f1: 0.9022
+random seed with 43
+seed 43 disease 1 | n train/valid/test: 9389/0/2463 | acc: 0.8916 | auroc: 0.9679 | aupr: 0.9688 | f1: 0.8886
+random seed with 43
+seed 43 disease 2 | n train/valid/test: 9552/0/2300 | acc: 0.8974 | auroc: 0.9701 | aupr: 0.9697 | f1: 0.8955
+random seed with 43
+seed 43 disease 3 | n train/valid/test: 9477/0/2375 | acc: 0.9057 | auroc: 0.9715 | aupr: 0.9690 | f1: 0.9027
+random seed with 43
+seed 43 disease 4 | n train/valid/test: 9574/0/2278 | acc: 0.9232 | auroc: 0.9782 | aupr: 0.9762 | f1: 0.9184
+Reusing msi_cv_ablation/embeddings_seed44.pkl
+random seed with 44
+seed 44 disease 0 | n train/valid/test: 9717/0/2135 | acc: 0.8824 | auroc: 0.9664 | aupr: 0.9617 | f1: 0.8616
+random seed with 44
+seed 44 disease 1 | n train/valid/test: 9502/0/2350 | acc: 0.9077 | auroc: 0.9688 | aupr: 0.9660 | f1: 0.9018
+random seed with 44
+seed 44 disease 2 | n train/valid/test: 9233/0/2619 | acc: 0.9133 | auroc: 0.9761 | aupr: 0.9769 | f1: 0.9156
+random seed with 44
+seed 44 disease 3 | n train/valid/test: 9574/0/2278 | acc: 0.9039 | auroc: 0.9710 | aupr: 0.9682 | f1: 0.8990
+random seed with 44
+seed 44 disease 4 | n train/valid/test: 9382/0/2470 | acc: 0.9081 | auroc: 0.9752 | aupr: 0.9749 | f1: 0.9094
+Reusing msi_cv_ablation/embeddings_seed45.pkl
+random seed with 45
+seed 45 disease 0 | n train/valid/test: 9368/0/2484 | acc: 0.9074 | auroc: 0.9771 | aupr: 0.9779 | f1: 0.9114
+random seed with 45
+seed 45 disease 1 | n train/valid/test: 9524/0/2328 | acc: 0.9141 | auroc: 0.9709 | aupr: 0.9719 | f1: 0.9102
+random seed with 45
+seed 45 disease 2 | n train/valid/test: 9471/0/2381 | acc: 0.9030 | auroc: 0.9700 | aupr: 0.9661 | f1: 0.8940
+random seed with 45
+seed 45 disease 3 | n train/valid/test: 9477/0/2375 | acc: 0.9074 | auroc: 0.9688 | aupr: 0.9638 | f1: 0.9059
+random seed with 45
+seed 45 disease 4 | n train/valid/test: 9568/0/2284 | acc: 0.8748 | auroc: 0.9582 | aupr: 0.9463 | f1: 0.8625
+Reusing msi_cv_ablation/embeddings_seed46.pkl
+random seed with 46
+seed 46 disease 0 | n train/valid/test: 9489/0/2363 | acc: 0.9061 | auroc: 0.9666 | aupr: 0.9662 | f1: 0.9059
+random seed with 46
+seed 46 disease 1 | n train/valid/test: 9484/0/2368 | acc: 0.9193 | auroc: 0.9750 | aupr: 0.9735 | f1: 0.9175
+random seed with 46
+seed 46 disease 2 | n train/valid/test: 9457/0/2395 | acc: 0.8885 | auroc: 0.9694 | aupr: 0.9667 | f1: 0.8803
+random seed with 46
+seed 46 disease 3 | n train/valid/test: 9372/0/2480 | acc: 0.8927 | auroc: 0.9667 | aupr: 0.9668 | f1: 0.8907
+random seed with 46
+seed 46 disease 4 | n train/valid/test: 9606/0/2246 | acc: 0.9190 | auroc: 0.9734 | aupr: 0.9678 | f1: 0.9136
+Reusing msi_cv_ablation/embeddings_seed47.pkl
+random seed with 47
+seed 47 disease 0 | n train/valid/test: 9419/0/2433 | acc: 0.9277 | auroc: 0.9824 | aupr: 0.9822 | f1: 0.9282
+random seed with 47
+seed 47 disease 1 | n train/valid/test: 9519/0/2333 | acc: 0.9091 | auroc: 0.9710 | aupr: 0.9697 | f1: 0.9053
+random seed with 47
+seed 47 disease 2 | n train/valid/test: 9532/0/2320 | acc: 0.9177 | auroc: 0.9755 | aupr: 0.9731 | f1: 0.9146
+random seed with 47
+seed 47 disease 3 | n train/valid/test: 9404/0/2448 | acc: 0.8913 | auroc: 0.9703 | aupr: 0.9688 | f1: 0.8886
+random seed with 47
+seed 47 disease 4 | n train/valid/test: 9534/0/2318 | acc: 0.8965 | auroc: 0.9662 | aupr: 0.9601 | f1: 0.8891
+Reusing msi_cv_ablation/embeddings_seed48.pkl
+random seed with 48
+seed 48 disease 0 | n train/valid/test: 9227/0/2625 | acc: 0.8994 | auroc: 0.9684 | aupr: 0.9655 | f1: 0.9031
+random seed with 48
+seed 48 disease 1 | n train/valid/test: 9548/0/2304 | acc: 0.8872 | auroc: 0.9707 | aupr: 0.9692 | f1: 0.8788
+random seed with 48
+seed 48 disease 2 | n train/valid/test: 9552/0/2300 | acc: 0.9026 | auroc: 0.9730 | aupr: 0.9718 | f1: 0.9005
+random seed with 48
+seed 48 disease 3 | n train/valid/test: 9389/0/2463 | acc: 0.9058 | auroc: 0.9752 | aupr: 0.9757 | f1: 0.9023
+random seed with 48
+seed 48 disease 4 | n train/valid/test: 9692/0/2160 | acc: 0.9208 | auroc: 0.9744 | aupr: 0.9686 | f1: 0.9124
+Reusing msi_cv_ablation/embeddings_seed49.pkl
+random seed with 49
+seed 49 disease 0 | n train/valid/test: 9287/0/2565 | acc: 0.8998 | auroc: 0.9711 | aupr: 0.9692 | f1: 0.8974
+random seed with 49
+seed 49 disease 1 | n train/valid/test: 9550/0/2302 | acc: 0.9075 | auroc: 0.9710 | aupr: 0.9696 | f1: 0.9089
+random seed with 49
+seed 49 disease 2 | n train/valid/test: 9456/0/2396 | acc: 0.8881 | auroc: 0.9645 | aupr: 0.9623 | f1: 0.8841
+random seed with 49
+seed 49 disease 3 | n train/valid/test: 9630/0/2222 | acc: 0.9014 | auroc: 0.9722 | aupr: 0.9656 | f1: 0.8867
+random seed with 49
+seed 49 disease 4 | n train/valid/test: 9485/0/2367 | acc: 0.9147 | auroc: 0.9743 | aupr: 0.9752 | f1: 0.9142
+Reusing msi_cv_ablation/embeddings_seed50.pkl
+random seed with 50
+seed 50 disease 0 | n train/valid/test: 9736/0/2116 | acc: 0.9140 | auroc: 0.9728 | aupr: 0.9656 | f1: 0.9047
+random seed with 50
+seed 50 disease 1 | n train/valid/test: 9456/0/2396 | acc: 0.9044 | auroc: 0.9712 | aupr: 0.9719 | f1: 0.8996
+random seed with 50
+seed 50 disease 2 | n train/valid/test: 9462/0/2390 | acc: 0.9276 | auroc: 0.9786 | aupr: 0.9757 | f1: 0.9251
+random seed with 50
+seed 50 disease 3 | n train/valid/test: 9516/0/2336 | acc: 0.9127 | auroc: 0.9732 | aupr: 0.9744 | f1: 0.9117
+random seed with 50
+seed 50 disease 4 | n train/valid/test: 9238/0/2614 | acc: 0.8860 | auroc: 0.9648 | aupr: 0.9661 | f1: 0.8863
+Reusing msi_cv_ablation/embeddings_seed51.pkl
+random seed with 51
+seed 51 disease 0 | n train/valid/test: 9440/0/2412 | acc: 0.9001 | auroc: 0.9681 | aupr: 0.9664 | f1: 0.9002
+random seed with 51
+seed 51 disease 1 | n train/valid/test: 9364/0/2488 | acc: 0.8670 | auroc: 0.9531 | aupr: 0.9529 | f1: 0.8610
+random seed with 51
+seed 51 disease 2 | n train/valid/test: 9565/0/2287 | acc: 0.9160 | auroc: 0.9737 | aupr: 0.9686 | f1: 0.9080
+random seed with 51
+seed 51 disease 3 | n train/valid/test: 9441/0/2411 | acc: 0.8868 | auroc: 0.9644 | aupr: 0.9606 | f1: 0.8785
+random seed with 51
+seed 51 disease 4 | n train/valid/test: 9598/0/2254 | acc: 0.9122 | auroc: 0.9751 | aupr: 0.9753 | f1: 0.9111
+==================================================
+         acc   auroc    aupr      f1
+seed                                
+42    0.8965  0.9681  0.9653  0.8913
+43    0.9050  0.9726  0.9708  0.9015
+44    0.9031  0.9715  0.9695  0.8975
+45    0.9013  0.9690  0.9652  0.8968
+46    0.9051  0.9702  0.9682  0.9016
+47    0.9085  0.9731  0.9708  0.9052
+48    0.9032  0.9724  0.9701  0.8994
+49    0.9023  0.9706  0.9684  0.8983
+50    0.9089  0.9721  0.9707  0.9055
+51    0.8964  0.9669  0.9648  0.8917
+--------------------------------------------------
+All 50 disease splits: acc: 0.9030 ± 0.0135 | auroc: 0.9707 ± 0.0051 | aupr: 0.9684 ± 0.0063 | f1: 0.8989 ± 0.0159
