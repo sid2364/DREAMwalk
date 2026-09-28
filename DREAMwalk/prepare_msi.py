@@ -21,7 +21,7 @@ EDGE_FILES = [
     (3, '3_protein_to_protein.tsv'),
     (4, '4_protein_to_biological_function.tsv'),
     (5, '5_biological_function_to_biological_function.tsv'),
-    (6, '6_drug_indication_df.tsv') # TODO make configurable via cmd option, but for now hardcoding
+    # (6, '6_drug_indication_df.tsv') # not hardcoded, controlled via command line option "--include_drug_indication"
 ]
 
 # MSI node type -> DREAMwalk node type (HeterogeneousSG knows drug/disease/gene/etc)
@@ -40,13 +40,17 @@ def parse_args():
     parser.add_argument('--neg_ratio', type=float, default=1.0,
                         help='negatives sampled per positive drug-disease pair')
     parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--include_drug_indication', action='store_true',
+                        help='include drug-indication edges file in the network (type 6)')
     return parser.parse_args()
 
 def build_network(msi_dir: str):
     edges = []
     node2type = {}
+
     for edge_type, fname in EDGE_FILES:
         df = pd.read_csv(os.path.join(msi_dir, fname), sep='\t', dtype=str)
+        # TODO: make this configurable via cmd option
         if fname == '6_drug_indication_df.tsv':
             # unlike files 1-5 this has no node_1/node_2 layout, so map it onto one
             df = df.rename(columns={'drug': 'node_1', 'indication': 'node_2'})
@@ -96,6 +100,13 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
 
     print('Building network...')
+
+    if args.include_drug_indication:
+        print("Including drug-indication (6_drug_indication_df.tsv) edges in input network")
+        EDGE_FILES.append((6, '6_drug_indication_df.tsv'))
+    else:
+        print("NOT including drug-indication edges in input network")
+
     edges, node2type = build_network(args.msi_dir)
     with open(os.path.join(args.output_dir, 'input_network.txt'), 'w') as fw:
         for edge_id, (n1, n2, edge_type) in enumerate(edges):
