@@ -38,6 +38,55 @@ Sample code to generate the embedding space and predict drug-disease association
 - The file formats for each input file can be found in [here](demo).
 - Detailed instructions in running the codes can be found [here](DREAMwalk).
 
+## PIPELINE WITHOUT DATA LEAKAGE
+Download data from: http://snap.stanford.edu/multiscale-interactome/data/data.tar.gz. 
+
+Unzip into `data/`
+
+Run from the repo root:
+```
+conda activate dreamwalk
+```
+
+### 0. MSI data -> input files
+```
+python -m DREAMwalk.prepare_msi --msi_dir data --output_dir msi_inputs
+```
+
+### 1. ATC similarity network
+```
+python -m DREAMwalk.generate_similarity_net \
+    --network_file msi_inputs/input_network.txt \
+    --hierarchy_file msi_inputs/hierarchy_file.csv \
+    --output_file msi_inputs/input_similarity_network.txt \
+    --cut_off 0.5
+```
+
+### 1b. Disease -> MeSH category mapping (only needed for `--split disease_area`)
+```
+wget -P data https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.xml
+wget -O data/mondo.obo http://purl.obolibrary.org/obo/mondo.obo
+python -m DREAMwalk.disease_categories --msi_dir data --output_dir msi_inputs
+```
+Maps the MSI UMLS CUIs to MeSH descriptors (via MONDO xrefs, falling back to exact name matching) and writes each disease's top-level MeSH category to `msi_inputs/disease_categories.tsv`.
+
+### 2. Run cross-validation (slow: trains one embedding per seed)
+```
+python -m DREAMwalk.run_cv \
+    --network_file msi_inputs/input_network.txt \
+    --sim_network_file msi_inputs/input_similarity_network.txt \
+    --node_type_file msi_inputs/nodetypes.tsv \
+    --msi_dir data --output_dir msi_cv \
+    --split disease_area
+    --seeds 42 43 44 45 46 47 48 49 50 51
+```
+`--split` controls how pairs are divided:
+- `random`: stratified K-fold over pairs (`--folds`, default 5)
+- `disease`: the paper's disease split. stratified group K-fold with diseases as groups, so test diseases never appear in training
+- `disease_area`: the hardest case but probably where generalisation can be tested the best. Whole MeSH categories go to test / valid / train at ~1:1:8 of the pairs, repeated `--repeats` times (default 10). Needs step 1b.
+
+saves per seed results in `msi_cv/cv_metrics_{split}_seed{N}.csv` and all seeds combined in `msi_cv/cv_metrics_{split}.csv`. The embedding `msi_cv/embeddings_seed{N}.pkl` is shared across split modes, so running a second `--split` only retrains XGBoost. 
+
 ### Software requirements
 
 **Operating system**

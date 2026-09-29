@@ -7,6 +7,7 @@ $ python generate_similarity_net.py \
     --output_file sim_network.txt \
     --cut_off 0.5
 ```
+### cut off was 0.4 in the paper!!! Not 0.5
 
 2. For embedding vector generation, with input network file for embedding:
 ```
